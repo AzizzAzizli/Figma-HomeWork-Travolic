@@ -181,7 +181,9 @@ nav ul {
   padding: 65px 91px 95px 61px;
   display: flex;
   gap: 55px;
+  height: max-content;
 }
+
 .img {
   width: 91px;
   height: 90px;
@@ -252,6 +254,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 55px;
 }
 
 .footerUp {
