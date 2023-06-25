@@ -1,57 +1,288 @@
 body {
-    font-family: var(--fontPoppins);
-    background-color: var(--MainWhiteColor);
-  }
-  nav {
-    width: 100%;
-    padding: 31px 30px 29px 32px;
-    border-bottom: 0.7px solid #c4c4c4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .brand{
-    font-weight: 700;
-    font-size: 29px;
-    color: var(--MainBlueColor);
-  }
-  nav ul {
-    display: flex;
-  }
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 167px;
-  }
-  .nav-left li:nth-child(1) a {
-    font-size: 16px;
-    color: var(--MainBlackColor);
-    font-weight: 400;
-    margin-right: 83px;
-  }
-  .nav-left li:nth-child(2) a {
-    font-size: 16px;
-    color: var(--MainBlackColor);
-    font-weight: 400;
-    margin-right: 71px;
-  }
-  .nav-left li:nth-child(3) a {
-    font-size: 16px;
-    color: var(--MainBlackColor);
-    font-weight: 400;
-  }
-  .nav-right a {
-    color: var(--MainWhiteColor);
-    font-size: 13px;
-    font-weight: 400;
-  }
-  .nav-right button {
-    background: var(--MainBlueColor);
-    border-radius: 6px;
-    padding: 10px 27px 11px 26px;
-  }
-  .nav-left  li a:active{
-    color: var(--MainBlueColor);
-  
-  }
+  font-family: var(--fontPoppins);
+  background-color: var(--MainWhiteColor);
+}
+nav {
+  width: 100%;
+  padding: 31px 30px 29px 32px;
+  border-bottom: 0.7px solid #c4c4c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  font-weight: 700;
+  font-size: 29px;
+  color: var(--MainBlueColor);
+}
+nav ul {
+  display: flex;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 167px;
+}
+.nav-left li:nth-child(1) a {
+  font-size: 16px;
+  color: var(--MainBlackColor);
+  font-weight: 400;
+  margin-right: 83px;
+}
+.nav-left li:nth-child(2) a {
+  font-size: 16px;
+  color: var(--MainBlackColor);
+  font-weight: 400;
+  margin-right: 71px;
+}
+.nav-left li:nth-child(3) a {
+  font-size: 16px;
+  color: var(--MainBlackColor);
+  font-weight: 400;
+}
+.nav-right a {
+  color: var(--MainWhiteColor);
+  font-size: 13px;
+  font-weight: 400;
+}
+.nav-right button {
+  background: var(--MainBlueColor);
+  border-radius: 6px;
+  padding: 10px 27px 11px 26px;
+}
+.nav-left li a:active {
+  color: var(--MainBlueColor);
+}
+.headerBottom {
+  display: flex;
+  flex-direction: column;
+  padding: 89px 134px 86px 133px;
+}
+.image {
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  background-color: #f5f3da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerTexts {
+  width: 85%;
+}
+.headerTexts h1 {
+  color: var(--MainBlackColor);
+  font-size: 45px;
+  font-weight: 600;
+  margin: 16px 0px;
+}
+.headerTexts p {
+  color: #777;
+  font-size: 20px;
+  line-height: 189.5%;
+}
+.BottomUp {
+  display: flex;
+  justify-content: space-between;
+}
+.BottomDown {
+  margin-top: 60px;
+  display: flex;
+}
+.HeaderBottomRight {
+  width: 50%;
+}
+.HeaderBottomRight img {
+  width: 100%;
+}
+.BottomIcons {
+  display: flex;
+  gap: 16px;
+}
+.box1 {
+  padding-right: 120px;
+}
+.box1 p {
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+.box2 {
+  display: flex;
+  gap: 25px;
+  padding: 0px 50px;
+  border-left: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  align-items: center;
+}
+.box2 p {
+  color: #333;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.box2 img {
+  width: 30px;
+}
+.box3 {
+  display: flex;
+  padding-left: 60px;
+  gap: 20px;
+  align-items: center;
+}
+.box3 p {
+  color: #333;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.box3 img {
+  width: 29px;
+}
+section {
+  width: 100%;
+  padding: 54px 0px 62px 0px;
+  background-color: #e8f4fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  width: 50%;
+}
+.sectionTexts h2 {
+  color: var(--MainBlackColor);
+  font-weight: 400;
+font-size: 30px;
+text-align: center;
+}
+.sectionTexts p{
+  color: #777;
+font-size: 13px;
+font-weight: 500;
+text-align: center;
+margin-top: 10px; 
+
+}
+.sectionTexts{
+  margin-bottom: 80px;
+}
+.Name{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.Name textarea{
+  border: none;
+  border-radius: 9px;
+}
+.Name label{
+  color: #4F4F4F;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: -0.3px;
+}
+.Name input{
+  border-radius: 9px;
+background: var(--MainWhiteColor);
+border: none;
+width: 100%;
+height: 56px;
+}
+.form1{
+  display: flex;
+  gap: 27px;
+  margin-bottom: 20px;
+}
+.margin-bottom{
+  margin-bottom: 20px;
+}
+section button{
+  padding: 12px 48px;
+  background-color:var(--MainBlueColor);
+border-radius: 10px;
+}
+section button a{
+  color: var(--MainWhiteColor);
+font-size: 16px;
+}
+.button{
+  display: flex;
+  justify-content: end;
+  margin-top: 57px;
+}
+.footerBottom {
+  padding: 88px 120px 53px 101px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.8px solid #d2d2d2;
+}
+.iconCircle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: var(--MainWhiteColor);
+  display: flex;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+
+  align-items: center;
+  justify-content: center;
+}
+.footerBottom li {
+  font-weight: 400;
+  font-size: 16px;
+  color: #515151;
+}
+.st {
+  width: 30%;
+  line-height: 24px;
+}
+.st li:first-child {
+  margin-bottom: 26px;
+  color: #00329b;
+  font-weight: 700;
+}
+.st li:last-child {
+  margin-top: 26px;
+}
+.nd {
+  width: 10%;
+  line-height: 30px;
+}
+.nd li:first-child {
+  font-weight: 400;
+  color: var(--MainBlackColor);
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.th {
+  width: 23%;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.th li:first-child {
+  font-weight: 400;
+  color: var(--MainBlackColor);
+  font-weight: 500;
+  font-size: 17px;
+}
+.footerBottomIcons {
+  display: flex;
+  gap: 16px;
+  align-items: end;
+  width: 25%;
+  justify-content: end;
+}
+.footerBottomDown {
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #686868;
+  padding: 30px 5px;
+}
